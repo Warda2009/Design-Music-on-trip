@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music on Trip</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            width: 90%;
+            margin: auto;
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        .artist-card, .forum-message {
+            border: 1px solid #ddd;
+            margin: 10px 0;
+            padding: 15px;
+            background-color: #fff;
+        }
+        ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Music on Trip</h1>
+        <nav>
+            <a href="#accueil">Accueil</a>
+            <a href="#artists">Artistes du Mois</a>
+            <a href="#forum">Forum</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="accueil">
+            <h2>Bienvenue sur Music on Trip !</h2>
+            <p>Explorez une plateforme dédiée aux passionnés de musique, où concerts, découvertes culturelles et communauté se rencontrent. Trouvez les dates de vos artistes préférés, des recommandations locales et des offres exclusives. Préparez vos playlists, échangez avec d'autres fans, et vivez une expérience musicale unique.</p>
+        </section>
+
+        <section id="artists">
+            <h2>Artistes et Concerts du Mois</h2>
+
+            <!-- Taylor Swift -->
+            <div class="artist-card">
+                <h3>Taylor Swift - The Eras Tour</h3>
+                <p><strong>Concert :</strong> 15 mars 2024 à Paris, France</p>
+                <p><strong>Lieu :</strong> Stade de France, Saint-Denis</p>
+                <p><strong>Présentation :</strong> Taylor Swift, superstar internationale et icône de la pop, explore ses différentes périodes musicales dans "The Eras Tour". Chaque performance est une célébration de ses albums, de *Fearless* à *Midnights*.</p>
+                <p><strong>Détails :</strong> Une soirée magique avec des hits tels que *All Too Well*, *Lover*, et *Anti-Hero*. Les portes ouvrent à 18h, et le spectacle commence à 20h.</p>
+                <h4>Activités touristiques :</h4>
+                <ul>
+                    <li>Tour Eiffel : Prenez une photo au pied du monument emblématique, ou montez pour admirer une vue imprenable sur la ville.</li>
+                    <li>Musée du Louvre : Découvrez des chefs-d'œuvre tels que *La Joconde*. Réservez vos billets en ligne pour éviter les files d'attente.</li>
+                    <li>Balades à Montmartre : Explorez ce quartier bohème et visitez le Sacré-Cœur.</li>
+                </ul>
+                <p><strong>Tips :</strong> Réductions de 15% sur Booking.com, code Uber "SWIFT20".</p>
+                <a href="#">🎵 Écouter la playlist officielle - The Eras Tour</a>
+            </div>
+
+            <!-- Olivia Rodrigo -->
+            <div class="artist-card">
+                <h3>Olivia Rodrigo - GUTS World Tour</h3>
+                <p><strong>Concert :</strong> 26 novembre 2024 à New York, États-Unis</p>
+                <p><strong>Lieu :</strong> Madison Square Garden</p>
+                <p><strong>Présentation :</strong> Olivia Rodrigo, révélée avec *drivers license*, enchaîne les succès avec son nouvel album *GUTS*. Elle offre une combinaison d’énergie brute et de textes introspectifs dans sa tournée mondiale.</p>
+                <p><strong>Détails :</strong> Performances vibrantes de *vampire*, *good 4 u*, et *lacy*. Début à 19h.</p>
+                <h4>Activités touristiques :</h4>
+                <ul>
+                    <li>Times Square : Découvrez l'énergie vibrante de la ville qui ne dort jamais.</li>
+                    <li>Central Park : Baladez-vous ou louez un vélo pour explorer ce havre de paix.</li>
+                    <li>Musée d’Histoire Naturelle : Fascinant pour tous les âges, avec des expositions immersives.</li>
+                </ul>
+                <p><strong>Tips :</strong> Codes Airbnb, réductions musées, et snacks avec "RODRIGO10".</p>
+                <a href="#">🎵 Écouter la playlist officielle - GUTS World Tour</a>
+            </div>
+
+            <!-- The Weeknd -->
+            <div class="artist-card">
+                <h3>The Weeknd - After Hours Til Dawn Tour</h3>
+                <p><strong>Concert :</strong> 30 avril 2025 à Tokyo, Japon</p>
+                <p><strong>Lieu :</strong> Tokyo Dome</p>
+                <p><strong>Présentation :</strong> The Weeknd continue d’enchanter le monde avec sa voix captivante et ses visuels spectaculaires. La tournée "After Hours Til Dawn" plonge les fans dans l’univers sombre et poétique de ses albums.</p>
+                <p><strong>Détails :</strong> Attendez-vous à des classiques comme *Blinding Lights* et *Save Your Tears*. Début à 19h30.</p>
+                <h4>Activités touristiques :</h4>
+                <ul>
+                    <li>Shibuya Crossing : Traversez le carrefour le plus animé du monde.</li>
+                    <li>Asakusa : Visitez le temple Senso-ji et goûtez aux snacks traditionnels.</li>
+                    <li>Akihabara : Explorez l'univers geek japonais avec ses magasins de mangas et jeux vidéo.</li>
+                </ul>
+                <p><strong>Tips :</strong> Réductions avec Japan Rail Pass et "WEEKND2024".</p>
+                <a href="#">🎵 Écouter la playlist officielle - After Hours Til Dawn Tour</a>
+            </div>
+        </section>
+
+        <section id="forum">
+            <h2>Forum</h2>
+            <div class="forum-message"><strong>Alice T. :</strong> "Grâce à ce site, j'ai pu organiser un week-end parfait à Paris pour le concert de Taylor Swift !"</div>
+            <div class="forum-message"><strong>Emma R. :</strong> "Le guide sur Tokyo était super pratique avant The Weeknd. Bravo pour l'idée géniale !"</div>
+        </section>
+
+        <section id="contact">
+            <h2>Contactez-nous</h2>
+            <p><strong>Email général :</strong> <a href="mailto:support@musicontrip.com">support@musicontrip.com</a></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Music on Trip. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
